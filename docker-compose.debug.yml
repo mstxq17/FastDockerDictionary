@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fastdockerdictionary:
+    image: fastdockerdictionary
+    build:
+      context: .
+      dockerfile: ./Dockerfile
